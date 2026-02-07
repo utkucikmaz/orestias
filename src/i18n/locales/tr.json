@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Orestias | Envanter, Listeleme ve Fulfillment",
+    "description": "Orestias envanterinizi satın alır ve güvenle depolar, listelemelerinizi optimize eder ve siparişleri uçtan uca yönetir; siz büyümeye odaklanırsınız."
+  },
+  "nav": {
+    "brand": "Orestias",
+    "cta": "Teklif iste",
+    "menuOpen": "Menü",
+    "menuClose": "Kapat",
+    "items": [
+      {
+        "label": "Hizmetler",
+        "href": "services"
+      },
+      {
+        "label": "Süreç",
+        "href": "process"
+      },
+      {
+        "label": "Performans",
+        "href": "performance"
+      },
+      {
+        "label": "Referanslar",
+        "href": "testimonials"
+      },
+      {
+        "label": "SSS",
+        "href": "faq"
+      },
+      {
+        "label": "İletişim",
+        "href": "contact"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "E‑Ticaret Operasyonları, Sade ve Güçlü",
+    "title": "Envanter yönetimi. Listeleme optimizasyonu. Hızlı teslimat.",
+    "subtitle": "Envanterinizi satın alır ve güvenle depolarız; siz büyümeye odaklanırsınız. Listelemelerinizi güçlendirir, her siparişi kusursuzca teslim ederiz.",
+    "ctaPrimary": "Lojistik değerlendirmesi al",
+    "ctaSecondary": "Süreci incele",
+    "stats": [
+      {
+        "label": "Zamanında çıkış",
+        "value": "99,7%"
+      },
+      {
+        "label": "Envanter görünürlüğü",
+        "value": "7/24"
+      },
+      {
+        "label": "Listeleme artışı",
+        "value": "%30’a kadar"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Ne Yapıyoruz",
+    "title": "Modern markalar için tam kapsamlı operasyon ortağı",
+    "description": "Depolamadan son mile kadar güvenli saklama, listeleme uzmanlığı ve güçlü fulfillment bir arada.",
+    "items": [
+      {
+        "title": "Envanter satın alma ve güvenli depolama",
+        "description": "Envanterinizi satın alır, kontrollü ve sigortalı alanlarda saklarız.",
+        "points": [
+          "Isı kontrollü alanlar ve barkod takibi",
+          "Gerçek zamanlı stok görünürlüğü ve uyarılar",
+          "Hızlı kararlar için özel müşteri yöneticisi"
+        ]
+      },
+      {
+        "title": "Listeleme optimizasyonu",
+        "description": "Ürünlerinizi görünürlük ve dönüşüm için konumlandırırız.",
+        "points": [
+          "Anahtar kelime odaklı başlık ve madde içerikleri",
+          "Yüksek performanslı görseller ve A+ içerik",
+          "Performans takibi ve sürekli iyileştirme"
+        ]
+      },
+      {
+        "title": "Uçtan uca fulfillment",
+        "description": "Siparişleri hızlı ve hatasız toplar, paketler ve göndeririz.",
+        "points": [
+          "Öncelikli siparişlerde aynı gün çıkış",
+          "Kalite kontrol ve özel paketleme",
+          "Maliyet verimliliği için taşıyıcı optimizasyonu"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Nasıl Çalışır",
+    "title": "Girişten teslimata kadar sade bir akış",
+    "description": "Her adım envanteri korur, listelemeleri güçlendirir ve müşteriyi memnun eder.",
+    "steps": [
+      {
+        "title": "Envanter kabulü",
+        "description": "Stoku devralır, kalite kontrol, sayım ve barkodlama yaparız."
+      },
+      {
+        "title": "Güvenli depolama",
+        "description": "Ürünler izlenen alanlarda, tam görünürlükle saklanır."
+      },
+      {
+        "title": "Listeleme iyileştirme",
+        "description": "Başlık, görsel ve anahtar kelimeleri talep için güçlendiririz."
+      },
+      {
+        "title": "Hızlı fulfillment",
+        "description": "Siparişler zamanında hazırlanır, paketlenir ve izlenir."
+      }
+    ],
+    "callout1": "Özelleştirilmiş bir akış veya çoklu depo kapsamı mı gerekiyor?",
+    "callout2": "Aktarım noktalarını ekibinizle birlikte planlarız.",
+    "cta": "Süreci birlikte planlayalım"
+  },
+  "performance": {
+    "eyebrow": "Performans",
+    "title": "Gelire yansıyan operasyonel mükemmeliyet",
+    "description": "Önemli metrikleri takip eder ve şeffaf raporlar paylaşırız.",
+    "metrics": [
+      {
+        "label": "Ortalama çıkış süresi",
+        "value": "24 saatin altında"
+      },
+      {
+        "label": "Stok doğruluğu",
+        "value": "99,4%"
+      },
+      {
+        "label": "Dönüşüm artışı",
+        "value": "%18+"
+      }
+    ],
+    "benefitsTitle": "Markalar neden Orestias ile kalıyor",
+    "benefits": [
+      "Öngörülebilir depolama ile daha düşük maliyet",
+      "Proaktif ikmal sayesinde daha az stok tükenmesi",
+      "Optimize listelerle daha iyi sıralama",
+      "Tutarlı teslimatla daha mutlu müşteriler"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Referanslar",
+    "title": "Büyümeyi hedefleyen ekiplerin tercihi",
+    "items": [
+      {
+        "quote": "Orestias, depo karmaşamızı ölçeklenebilir ve güvenilir bir operasyona dönüştürdü. Daha hızlı gönderiyor, daha çok satıyoruz.",
+        "name": "Lena Hoffman",
+        "role": "Operasyon VP, Nordline"
+      },
+      {
+        "quote": "Listeleme iyileştirmeleri haftalar içinde dönüşümü artırdı. Raporlama net ve uygulanabilir.",
+        "name": "Miguel Alvarez",
+        "role": "Marketplace Lead, Selva Commerce"
+      },
+      {
+        "quote": "Fulfillment’ı devrettik ve müşteri memnuniyeti anında yükseldi. Ekip, bizim ekibimizin bir uzantısı gibi.",
+        "name": "Harper Reed",
+        "role": "Kurucu, Calyx Studio"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "SSS",
+    "title": "Sorularınıza yanıt",
+    "items": [
+      {
+        "question": "Sadece belirli pazaryerleriyle mi çalışıyorsunuz?",
+        "answer": "Çok kanallı satıcıları destekliyoruz ve süreçleri ana platformlarınıza göre uyarlıyoruz."
+      },
+      {
+        "question": "Envanter ne kadar sürede yayına alınır?",
+        "answer": "Çoğu marka, kabulden sonra 10–14 gün içinde yayına alınır."
+      },
+      {
+        "question": "Özel paketleme yapıyor musunuz?",
+        "answer": "Evet. Marka ekleri, kitting ve özel işlem seçenekleri sunuyoruz."
+      },
+      {
+        "question": "Hangi raporları sağlıyorsunuz?",
+        "answer": "Haftalık özetler ve aylık performans değerlendirmeleri sunuyoruz."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Fulfillment yol haritanızı birlikte tasarlayalım",
+    "description": "Katalog ve pazarlarınızı paylaşın. Size özel bir operasyon planıyla dönüş yapalım.",
+    "success": "Mesaj başarıyla gönderildi!",
+    "successMessage": "Ulaştığınız için teşekkürler. En kısa sürede size dönüş yapacağız.",
+    "error": {
+      "generic": "Mesaj gönderilemedi. Lütfen tekrar deneyin.",
+      "rateLimit": "Çok fazla istek. Lütfen kısa bir süre bekleyip tekrar deneyin.",
+      "invalidData": "Form verileri geçersiz. Girdilerinizi kontrol edip tekrar deneyin.",
+      "nameRequired": "İsim gerekli.",
+      "emailInvalid": "Lütfen geçerli bir e‑posta adresi girin.",
+      "subjectRequired": "Konu gerekli.",
+      "messageRequired": "Mesaj gerekli.",
+      "serviceUnavailable": "Hizmet geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin."
+    },
+    "details": {
+      "emailLabel": "E‑posta",
+      "phoneLabel": "Telefon",
+      "addressLabel": "Depo",
+      "email": "hello@orestias.co",
+      "phone": "+1 (000) 000-0000",
+      "address": "Esnek ABD dağıtım merkezleri",
+      "hours": "Pzt–Cum · 9:00–18:00"
+    },
+    "form": {
+      "name": "Ad soyad*",
+      "email": "E‑posta*",
+      "company": "Şirket",
+      "message": "Envanteriniz ve hedeflerinizden bahsedin*",
+      "submit": "Mesaj gönder",
+      "success": "Teşekkürler — mesajınız gönderildi.",
+      "error": "Göndermeden önce EmailJS anahtarlarını ayarlayın.",
+      "sending": "Gönderiliyor...",
+      "configNote": "EmailJS anahtarları henüz yapılandırılmadı."
+    }
+  },
+  "footer": {
+    "tagline": "Güvenli depolama, güçlü listelemeler ve güvenilir fulfillment.",
+    "legal": "© 2026 Orestias. Tüm hakları saklıdır."
+  }
+}

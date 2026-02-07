@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Orestias | Bestand, Listings & Fulfillment",
+    "description": "Orestias kauft und lagert Ihren Bestand sicher, optimiert Ihre Listings und übernimmt die gesamte Auftragsabwicklung, damit Sie sich auf Wachstum konzentrieren können."
+  },
+  "nav": {
+    "brand": "Orestias",
+    "cta": "Angebot anfordern",
+    "menuOpen": "Menü",
+    "menuClose": "Schließen",
+    "items": [
+      {
+        "label": "Services",
+        "href": "services"
+      },
+      {
+        "label": "Ablauf",
+        "href": "process"
+      },
+      {
+        "label": "Leistung",
+        "href": "performance"
+      },
+      {
+        "label": "Referenzen",
+        "href": "testimonials"
+      },
+      {
+        "label": "FAQ",
+        "href": "faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "contact"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Ecommerce Operations vereinfacht",
+    "title": "Bestand verwaltet. Listings optimiert. Bestellungen geliefert.",
+    "subtitle": "Wir kaufen und lagern Ihren Bestand sicher, damit Sie sich auf Wachstum konzentrieren können. Wir optimieren Ihre Listings und liefern jede Bestellung präzise aus.",
+    "ctaPrimary": "Logistik-Review buchen",
+    "ctaSecondary": "Prozess ansehen",
+    "stats": [
+      {
+        "label": "Pünktlicher Versand",
+        "value": "99,7%"
+      },
+      {
+        "label": "Bestandsübersicht",
+        "value": "24/7"
+      },
+      {
+        "label": "Listing-Uplift",
+        "value": "Bis zu 30%"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Was wir tun",
+    "title": "Ihr Full-Service-Operations-Partner",
+    "description": "Vom Wareneingang bis zur letzten Meile verbinden wir sichere Lagerung, Listing-Expertise und Fulfillment-Exzellenz.",
+    "items": [
+      {
+        "title": "Bestandskauf & sichere Lagerung",
+        "description": "Wir erwerben Ihren Bestand und lagern ihn kontrolliert und versichert.",
+        "points": [
+          "Temperaturgeführte Zonen und Barcode-Tracking",
+          "Echtzeit-Bestandsübersicht und Nachbestell-Alerts",
+          "Dedizierte Account-Manager für schnelle Entscheidungen"
+        ]
+      },
+      {
+        "title": "Listing-Optimierung",
+        "description": "Wir positionieren Ihre Produkte für maximale Sichtbarkeit und Conversion.",
+        "points": [
+          "Keyword-starke Titel und Bullet Points",
+          "Performante Bilder und A+ Content",
+          "Tracking und kontinuierliche Optimierung"
+        ]
+      },
+      {
+        "title": "End-to-End Fulfillment",
+        "description": "Wir picken, packen und versenden schnell und fehlerfrei.",
+        "points": [
+          "Same-Day-Versand für priorisierte Orders",
+          "Qualitätschecks und individuelles Packaging",
+          "Carrier-Optimierung für effiziente Kosten"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "So funktioniert’s",
+    "title": "Ein optimierter Ablauf von Eingang bis Zustellung",
+    "description": "Jeder Schritt schützt den Bestand, stärkt Ihre Listings und begeistert Kunden.",
+    "steps": [
+      {
+        "title": "Bestandseingang",
+        "description": "Wir übernehmen den Bestand und führen QA, Zählung und Barcode-Erfassung durch."
+      },
+      {
+        "title": "Sichere Lagerung",
+        "description": "Produkte werden in überwachten Zonen mit voller Transparenz gelagert."
+      },
+      {
+        "title": "Listing-Uplift",
+        "description": "Wir verbessern Titel, Visuals und Keywords für höhere Nachfrage."
+      },
+      {
+        "title": "Schnelles Fulfillment",
+        "description": "Bestellungen werden pünktlich kommissioniert und versendet, inklusive Live-Tracking."
+      }
+    ],
+    "callout1": "Benötigen Sie einen individuellen Ablauf oder Multi-Warehouse-Abdeckung?",
+    "callout2": "Wir definieren die Übergaben gemeinsam mit Ihrem Team.",
+    "cta": "Workflow besprechen"
+  },
+  "performance": {
+    "eyebrow": "Leistung",
+    "title": "Operational Excellence, die Umsatz bringt",
+    "description": "Wir messen relevante Kennzahlen und liefern transparente Reports.",
+    "metrics": [
+      {
+        "label": "Ø Versandzeit",
+        "value": "Unter 24 Std."
+      },
+      {
+        "label": "Bestandsgenauigkeit",
+        "value": "99,4%"
+      },
+      {
+        "label": "Conversion-Uplift",
+        "value": "18%+"
+      }
+    ],
+    "benefitsTitle": "Warum Marken bei Orestias bleiben",
+    "benefits": [
+      "Geringere Lagerkosten durch planbare Kapazitäten",
+      "Weniger Stockouts dank proaktiver Nachfüllung",
+      "Bessere Rankings durch optimierte Listings",
+      "Zufriedenere Kunden durch zuverlässige Lieferzeiten"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Referenzen",
+    "title": "Vertrauen von wachstumsstarken Ecommerce-Teams",
+    "items": [
+      {
+        "quote": "Orestias hat unser Lagerchaos in einen skalierbaren, verlässlichen Betrieb verwandelt. Wir versenden schneller und verkaufen mehr.",
+        "name": "Lena Hoffman",
+        "role": "VP Operations, Nordline"
+      },
+      {
+        "quote": "Die Listing-Upgrades steigerten unsere Conversion in wenigen Wochen. Das Reporting ist klar und umsetzbar.",
+        "name": "Miguel Alvarez",
+        "role": "Marketplace Lead, Selva Commerce"
+      },
+      {
+        "quote": "Wir haben das Fulfillment übergeben und die Kundenzufriedenheit sofort verbessert. Das Team fühlt sich wie eine Erweiterung an.",
+        "name": "Harper Reed",
+        "role": "Founder, Calyx Studio"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Antworten auf Ihre Fragen",
+    "items": [
+      {
+        "question": "Arbeitet ihr nur mit bestimmten Marktplätzen?",
+        "answer": "Wir unterstützen Multi-Channel-Seller und passen Listing- und Fulfillment-Prozesse an Ihre Plattformen an."
+      },
+      {
+        "question": "Wie schnell ist der Bestand live?",
+        "answer": "Die meisten Marken sind innerhalb von 10–14 Tagen nach Wareneingang startklar."
+      },
+      {
+        "question": "Bietet ihr individuelles Packaging?",
+        "answer": "Ja. Wir liefern Inserts, Kitting und Sonderhandling passend zu Ihrem Unboxing."
+      },
+      {
+        "question": "Welche Reports erhaltet man?",
+        "answer": "Sie erhalten wöchentliche Updates sowie monatliche Performance-Reviews zu Bestand, Fulfillment und Listings."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Lassen Sie uns Ihre Fulfillment-Roadmap planen",
+    "description": "Erzählen Sie uns von Ihrem Sortiment und Ihren Märkten. Wir melden uns mit einem maßgeschneiderten Plan.",
+    "success": "Nachricht erfolgreich gesendet!",
+    "successMessage": "Danke für Ihre Nachricht. Wir melden uns so schnell wie möglich.",
+    "error": {
+      "generic": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+      "rateLimit": "Zu viele Anfragen. Bitte warten Sie kurz und versuchen Sie es erneut.",
+      "invalidData": "Ungültige Formulardaten. Bitte prüfen Sie Ihre Eingaben und versuchen Sie es erneut.",
+      "nameRequired": "Name ist erforderlich.",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "subjectRequired": "Betreff ist erforderlich.",
+      "messageRequired": "Nachricht ist erforderlich.",
+      "serviceUnavailable": "Dienst vorübergehend nicht verfügbar. Bitte versuchen Sie es später erneut."
+    },
+    "details": {
+      "emailLabel": "E-Mail",
+      "phoneLabel": "Telefon",
+      "addressLabel": "Lager",
+      "email": "hello@orestias.co",
+      "phone": "+1 (000) 000-0000",
+      "address": "Flexible U.S.-Distributionszentren",
+      "hours": "Mo–Fr · 9:00–18:00"
+    },
+    "form": {
+      "name": "Vollständiger Name*",
+      "email": "Business-E-Mail*",
+      "company": "Unternehmen",
+      "message": "Erzählen Sie uns von Bestand und Zielen*",
+      "submit": "Nachricht senden",
+      "success": "Danke — Ihre Nachricht wurde gesendet.",
+      "error": "Bitte konfigurieren Sie die EmailJS-Schlüssel.",
+      "sending": "Wird gesendet..."
+    }
+  },
+  "footer": {
+    "tagline": "Sichere Lagerung, bessere Listings und Fulfillment, dem Sie vertrauen können.",
+    "legal": "© 2026 Orestias. Alle Rechte vorbehalten."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Orestias | Inventory, Listings & Fulfillment",
+    "description": "Orestias buys and securely stores your inventory, optimizes your listings, and fulfills orders end-to-end so you can focus on growing your business."
+  },
+  "nav": {
+    "brand": "Orestias",
+    "cta": "Get a quote",
+    "menuOpen": "Menu",
+    "menuClose": "Close",
+    "items": [
+      {
+        "label": "Services",
+        "href": "services"
+      },
+      {
+        "label": "Process",
+        "href": "process"
+      },
+      {
+        "label": "Performance",
+        "href": "performance"
+      },
+      {
+        "label": "Testimonials",
+        "href": "testimonials"
+      },
+      {
+        "label": "FAQ",
+        "href": "faq"
+      },
+      {
+        "label": "Contact",
+        "href": "contact"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Ecommerce Operations, Simplified",
+    "title": "Inventory handled. Listings optimized. Orders delivered.",
+    "subtitle": "We buy and securely store your inventory so you can focus on growth. Our team streamlines storage, elevates your product listings, and delivers every order with precision.",
+    "ctaPrimary": "Book a logistics review",
+    "ctaSecondary": "Explore the process",
+    "stats": [
+      {
+        "label": "On-time dispatch",
+        "value": "99.7%"
+      },
+      {
+        "label": "Inventory visibility",
+        "value": "24/7"
+      },
+      {
+        "label": "Listing lift",
+        "value": "Up to 30%"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "A full-service operations partner for modern brands",
+    "description": "From inbound to last mile, we combine secure warehousing, listing expertise, and fulfillment excellence.",
+    "items": [
+      {
+        "title": "Inventory Buy & Secure Storage",
+        "description": "We purchase your inventory and store it in a controlled, insured environment.",
+        "points": [
+          "Temperature-aware zones and barcode tracking",
+          "Real-time stock visibility and reorder alerts",
+          "Dedicated account managers for fast decisions"
+        ]
+      },
+      {
+        "title": "Listing Optimization",
+        "description": "We position your products to win visibility and conversion.",
+        "points": [
+          "Keyword-rich titles and bullet points",
+          "High-performing imagery and A+ content",
+          "Performance tracking and iteration"
+        ]
+      },
+      {
+        "title": "End-to-End Fulfillment",
+        "description": "We pick, pack, and ship with speed and accuracy.",
+        "points": [
+          "Same-day dispatch for priority orders",
+          "Quality checks and custom packaging",
+          "Carrier optimization for cost efficiency"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How It Works",
+    "title": "A streamlined flow from inbound to delivery",
+    "description": "Every step is designed to keep inventory safe, listings competitive, and customers delighted.",
+    "steps": [
+      {
+        "title": "Inventory intake",
+        "description": "We acquire stock and intake with strict QA, counting, and barcoding."
+      },
+      {
+        "title": "Secure storage",
+        "description": "Products are stored in monitored zones with real-time visibility."
+      },
+      {
+        "title": "Listing uplift",
+        "description": "Our team refreshes titles, visuals, and keywords to boost demand."
+      },
+      {
+        "title": "Fast fulfillment",
+        "description": "Orders are picked, packed, and shipped on time with live tracking."
+      }
+    ],
+    "callout1": "Need a custom flow or multi-warehouse coverage?",
+    "callout2": "We map the exact handoffs with your team.",
+    "cta": "Talk through your workflow"
+  },
+  "performance": {
+    "eyebrow": "Performance",
+    "title": "Operational excellence that shows up in revenue",
+    "description": "We track the metrics that matter and share transparent reporting.",
+    "metrics": [
+      {
+        "label": "Avg. dispatch time",
+        "value": "Under 24 hrs"
+      },
+      {
+        "label": "Inventory accuracy",
+        "value": "99.4%"
+      },
+      {
+        "label": "Conversion uplift",
+        "value": "18%+"
+      }
+    ],
+    "benefitsTitle": "Why brands stay with Orestias",
+    "benefits": [
+      "Lower carrying costs with predictable storage",
+      "Fewer stockouts from proactive replenishment",
+      "Better marketplace ranking through optimized listings",
+      "Happier customers with consistent delivery times"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "Trusted by growth-minded ecommerce teams",
+    "items": [
+      {
+        "quote": "Orestias turned our warehouse chaos into a reliable, scalable operation. We ship faster and sell more.",
+        "name": "Lena Hoffman",
+        "role": "VP Operations, Nordline"
+      },
+      {
+        "quote": "Their listing upgrades lifted our conversion rate within weeks. The reporting is clear and actionable.",
+        "name": "Miguel Alvarez",
+        "role": "Marketplace Lead, Selva Commerce"
+      },
+      {
+        "quote": "We handed off fulfillment and immediately improved customer satisfaction. The team feels like an extension of ours.",
+        "name": "Harper Reed",
+        "role": "Founder, Calyx Studio"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, answered",
+    "items": [
+      {
+        "question": "Do you only work with certain marketplaces?",
+        "answer": "We support multi-channel sellers and can tailor listing and fulfillment workflows to your primary platforms."
+      },
+      {
+        "question": "How quickly can inventory go live?",
+        "answer": "Most brands are live within 10–14 days after intake, depending on catalog size and listing scope."
+      },
+      {
+        "question": "Can you handle custom packaging?",
+        "answer": "Yes. We offer branded inserts, kitting, and special handling to match your unboxing experience."
+      },
+      {
+        "question": "What reporting do you provide?",
+        "answer": "You receive weekly operational snapshots and monthly performance reviews covering stock, fulfillment, and listing metrics."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s design your fulfillment roadmap",
+    "description": "Tell us about your catalog and markets. We’ll respond with a tailored operations plan.",
+    "success": "Message sent successfully!",
+    "successMessage": "Thank you for reaching out. We’ll get back to you as soon as possible.",
+    "error": {
+      "generic": "Failed to send message. Please try again.",
+      "rateLimit": "Too many requests. Please wait a moment and try again.",
+      "invalidData": "Invalid form data. Please check your input and try again.",
+      "nameRequired": "Name is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "subjectRequired": "Subject is required.",
+      "messageRequired": "Message is required.",
+      "serviceUnavailable": "Service temporarily unavailable. Please try again later."
+    },
+    "details": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "addressLabel": "Warehouse",
+      "email": "hello@orestias.co",
+      "phone": "+1 (000) 000-0000",
+      "address": "Flexible U.S. distribution centers",
+      "hours": "Mon–Fri · 9:00–18:00"
+    },
+    "form": {
+      "name": "Full name*",
+      "email": "Work email*",
+      "company": "Company",
+      "message": "Tell us about your inventory and goals*",
+      "submit": "Send message",
+      "success": "Thanks — your message is on its way.",
+      "error": "Please configure EmailJS keys before sending.",
+      "sending": "Sending..."
+    }
+  },
+  "footer": {
+    "tagline": "Secure storage, elevated listings, and fulfillment you can trust.",
+    "legal": "© 2026 Orestias. All rights reserved."
+  }
+}

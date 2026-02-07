@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Orestias | Inventario, Listados y Fulfillment",
+    "description": "Orestias compra y almacena tu inventario de forma segura, optimiza tus listados y gestiona los pedidos de principio a fin para que te centres en crecer."
+  },
+  "nav": {
+    "brand": "Orestias",
+    "cta": "Solicitar propuesta",
+    "menuOpen": "Menú",
+    "menuClose": "Cerrar",
+    "items": [
+      {
+        "label": "Servicios",
+        "href": "services"
+      },
+      {
+        "label": "Proceso",
+        "href": "process"
+      },
+      {
+        "label": "Resultados",
+        "href": "performance"
+      },
+      {
+        "label": "Testimonios",
+        "href": "testimonials"
+      },
+      {
+        "label": "FAQ",
+        "href": "faq"
+      },
+      {
+        "label": "Contacto",
+        "href": "contact"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Operaciones Ecommerce Simplificadas",
+    "title": "Inventario gestionado. Listados optimizados. Pedidos entregados.",
+    "subtitle": "Compramos y almacenamos tu inventario de forma segura para que puedas enfocarte en el crecimiento. Optimizamos tus listados y enviamos cada pedido con precisión.",
+    "ctaPrimary": "Agenda una revisión logística",
+    "ctaSecondary": "Explorar el proceso",
+    "stats": [
+      {
+        "label": "Despacho a tiempo",
+        "value": "99.7%"
+      },
+      {
+        "label": "Visibilidad de inventario",
+        "value": "24/7"
+      },
+      {
+        "label": "Mejora de listados",
+        "value": "Hasta 30%"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Lo Que Hacemos",
+    "title": "Un socio operativo integral para marcas modernas",
+    "description": "De la recepción a la última milla, combinamos almacenaje seguro, optimización de listados y excelencia en fulfillment.",
+    "items": [
+      {
+        "title": "Compra de inventario y almacenamiento seguro",
+        "description": "Adquirimos tu inventario y lo almacenamos en un entorno controlado y asegurado.",
+        "points": [
+          "Zonas con control de temperatura y trazabilidad por código",
+          "Visibilidad en tiempo real y alertas de reposición",
+          "Account managers dedicados para decisiones rápidas"
+        ]
+      },
+      {
+        "title": "Optimización de listados",
+        "description": "Posicionamos tus productos para maximizar visibilidad y conversión.",
+        "points": [
+          "Títulos y bullets ricos en palabras clave",
+          "Imágenes de alto rendimiento y contenido A+",
+          "Seguimiento de performance y mejoras continuas"
+        ]
+      },
+      {
+        "title": "Fulfillment end-to-end",
+        "description": "Preparamos, embalamos y enviamos con rapidez y exactitud.",
+        "points": [
+          "Despacho el mismo día para pedidos prioritarios",
+          "Control de calidad y empaques personalizados",
+          "Optimización de transportistas para eficiencia de costos"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Cómo Funciona",
+    "title": "Un flujo optimizado desde la recepción hasta la entrega",
+    "description": "Cada etapa está diseñada para proteger el inventario, elevar los listados y satisfacer a tus clientes.",
+    "steps": [
+      {
+        "title": "Recepción de inventario",
+        "description": "Adquirimos stock y realizamos QA, conteo y etiquetado."
+      },
+      {
+        "title": "Almacenamiento seguro",
+        "description": "Los productos se guardan en zonas monitoreadas con visibilidad total."
+      },
+      {
+        "title": "Mejora de listados",
+        "description": "Actualizamos títulos, imágenes y keywords para impulsar la demanda."
+      },
+      {
+        "title": "Fulfillment rápido",
+        "description": "Los pedidos se preparan y envían a tiempo con tracking en vivo."
+      }
+    ],
+    "callout1": "¿Necesitas un flujo personalizado o cobertura multi-warehouse?",
+    "callout2": "Definimos los handoffs con tu equipo.",
+    "cta": "Conversemos tu flujo"
+  },
+  "performance": {
+    "eyebrow": "Resultados",
+    "title": "Excelencia operativa que impacta en ingresos",
+    "description": "Medimos lo que importa y compartimos reportes transparentes.",
+    "metrics": [
+      {
+        "label": "Tiempo promedio de despacho",
+        "value": "Menos de 24 h"
+      },
+      {
+        "label": "Precisión de inventario",
+        "value": "99.4%"
+      },
+      {
+        "label": "Incremento de conversión",
+        "value": "18%+"
+      }
+    ],
+    "benefitsTitle": "Por qué las marcas se quedan con Orestias",
+    "benefits": [
+      "Costos de almacenamiento más predecibles",
+      "Menos quiebres de stock con reposición proactiva",
+      "Mejor posicionamiento gracias a listados optimizados",
+      "Clientes más felices con entregas consistentes"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonios",
+    "title": "Equipos ecommerce que crecen con nosotros",
+    "items": [
+      {
+        "quote": "Orestias convirtió nuestro caos logístico en una operación confiable y escalable. Enviamos más rápido y vendemos más.",
+        "name": "Lena Hoffman",
+        "role": "VP Operaciones, Nordline"
+      },
+      {
+        "quote": "Sus mejoras de listados elevaron la conversión en semanas. El reporting es claro y accionable.",
+        "name": "Miguel Alvarez",
+        "role": "Marketplace Lead, Selva Commerce"
+      },
+      {
+        "quote": "Delegamos el fulfillment y mejoró la satisfacción del cliente de inmediato. Son una extensión del equipo.",
+        "name": "Harper Reed",
+        "role": "Fundador, Calyx Studio"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Resolvemos tus dudas",
+    "items": [
+      {
+        "question": "¿Trabajan solo con ciertos marketplaces?",
+        "answer": "Apoyamos vendedores multicanal y adaptamos listados y fulfillment a tus plataformas principales."
+      },
+      {
+        "question": "¿Cuánto tarda en publicarse el inventario?",
+        "answer": "La mayoría de las marcas están operativas en 10–14 días tras la recepción."
+      },
+      {
+        "question": "¿Ofrecen empaques personalizados?",
+        "answer": "Sí. Hacemos inserts de marca, kitting y manejo especial según tu experiencia unboxing."
+      },
+      {
+        "question": "¿Qué reportes entregan?",
+        "answer": "Recibes resúmenes semanales y revisiones mensuales con métricas de stock, fulfillment y listados."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Diseñemos tu hoja de ruta logística",
+    "description": "Cuéntanos sobre tu catálogo y mercados. Responderemos con un plan operativo a medida.",
+    "success": "¡Mensaje enviado con éxito!",
+    "successMessage": "Gracias por escribirnos. Te responderemos lo antes posible.",
+    "error": {
+      "generic": "No se pudo enviar el mensaje. Inténtalo de nuevo.",
+      "rateLimit": "Demasiadas solicitudes. Espera un momento e inténtalo de nuevo.",
+      "invalidData": "Los datos del formulario no son válidos. Revisa tu información y vuelve a intentarlo.",
+      "nameRequired": "El nombre es obligatorio.",
+      "emailInvalid": "Introduce un correo electrónico válido.",
+      "subjectRequired": "El asunto es obligatorio.",
+      "messageRequired": "El mensaje es obligatorio.",
+      "serviceUnavailable": "El servicio no está disponible temporalmente. Inténtalo más tarde."
+    },
+    "details": {
+      "emailLabel": "Email",
+      "phoneLabel": "Teléfono",
+      "addressLabel": "Centro logístico",
+      "email": "hello@orestias.co",
+      "phone": "+1 (000) 000-0000",
+      "address": "Centros de distribución flexibles en EE. UU.",
+      "hours": "Lun–Vie · 9:00–18:00"
+    },
+    "form": {
+      "name": "Nombre completo*",
+      "email": "Email corporativo*",
+      "company": "Empresa",
+      "message": "Cuéntanos sobre tu inventario y objetivos*",
+      "submit": "Enviar mensaje",
+      "success": "Gracias, tu mensaje está en camino.",
+      "error": "Configura las claves de EmailJS antes de enviar.",
+      "sending": "Enviando..."
+    }
+  },
+  "footer": {
+    "tagline": "Almacenaje seguro, listados optimizados y fulfillment en el que puedes confiar.",
+    "legal": "© 2026 Orestias. Todos los derechos reservados."
+  }
+}
