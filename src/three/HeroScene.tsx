@@ -124,6 +124,7 @@ const Crate = ({ position, scale = 1 }: CrateProps) => {
   const groupRef = useRef<THREE.Group>(null);
   const tempVec = useMemo(() => new THREE.Vector3(), []);
   const clock = useRef(0);
+  const hoverBoxSize = 2.8;
 
   const woodMaterials = useMemo<THREE.MeshStandardMaterial[]>(() => {
     const materials: THREE.MeshStandardMaterial[] = [];
@@ -212,19 +213,26 @@ const Crate = ({ position, scale = 1 }: CrateProps) => {
       ref={groupRef}
       position={position}
       scale={scale}
-      onPointerOver={() => {
-        if (!reduceMotion) {
-          setHovered(true);
-          document.body.style.cursor = "pointer";
-        }
-      }}
-      onPointerOut={() => {
-        if (!reduceMotion) {
-          setHovered(false);
-          document.body.style.cursor = "default";
-        }
-      }}
     >
+      <mesh
+        onPointerEnter={(event) => {
+          event.stopPropagation();
+          if (!reduceMotion) {
+            setHovered(true);
+            document.body.style.cursor = "pointer";
+          }
+        }}
+        onPointerLeave={(event) => {
+          event.stopPropagation();
+          if (!reduceMotion) {
+            setHovered(false);
+            document.body.style.cursor = "default";
+          }
+        }}
+      >
+        <boxGeometry args={[hoverBoxSize, hoverBoxSize, hoverBoxSize]} />
+        <meshBasicMaterial transparent opacity={0} depthWrite={false} />
+      </mesh>
       {pieces.map((piece, index) => (
         <mesh
           key={index}
