@@ -4,7 +4,7 @@ import clsx from "clsx";
 import Container from "./Container";
 import LanguageSwitch from "./LanguageSwitch";
 import ThemeToggle from "./ThemeToggle";
-import logo from "../assets/logo.png";
+import title from "../assets/title.png";
 
 type NavItem = {
     label: string;
@@ -105,12 +105,11 @@ const Navbar = () => {
                     className="flex items-center gap-3 font-display text-xl text-ink-900 transition hover:text-ocean-600 dark:text-ink-50 dark:hover:text-gold-400"
                 >
                     <img
-                        src={logo}
+                        src={title}
                         alt={`${t("nav.brand")} logo`}
-                        className="h-8 w-8 rounded-full object-cover shadow-soft"
+                        className="h-8 w-full object-cover shadow-soft"
                         loading="eager"
                     />
-                    <span>{t("nav.brand")}</span>
                 </a>
                 <nav className="hidden items-center gap-6 lg:flex">
                     {items.map((item) => {
