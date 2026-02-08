@@ -1,7 +1,8 @@
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 import { useReducedMotion } from "framer-motion";
+import logoUrl from "../assets/logo.png";
 
 const basePositions = [
   new THREE.Vector3(-0.35, -0.35, -0.35),
@@ -125,6 +126,10 @@ const Crate = ({ position, scale = 1 }: CrateProps) => {
   const tempVec = useMemo(() => new THREE.Vector3(), []);
   const clock = useRef(0);
   const hoverBoxSize = 2.8;
+  const logoTexture = useLoader(THREE.TextureLoader, logoUrl);
+  const pieceSize = 0.6;
+  const logoSize = 0.26;
+  const logoOffset = pieceSize / 2 + 0.008;
 
   const woodMaterials = useMemo<THREE.MeshStandardMaterial[]>(() => {
     const materials: THREE.MeshStandardMaterial[] = [];
@@ -141,6 +146,30 @@ const Crate = ({ position, scale = 1 }: CrateProps) => {
     }
     return materials;
   }, []);
+
+  const configuredLogoTexture = useMemo(() => {
+    const texture = logoTexture.clone();
+    texture.colorSpace = THREE.SRGBColorSpace;
+    texture.anisotropy = 8;
+    texture.needsUpdate = true;
+    return texture;
+  }, [logoTexture]);
+
+  const logoMaterial = useMemo(
+    () =>
+      new THREE.MeshStandardMaterial({
+        map: configuredLogoTexture,
+        transparent: true,
+        roughness: 0.8,
+        metalness: 0,
+        depthWrite: true,
+        alphaTest: 0.2,
+        polygonOffset: true,
+        polygonOffsetFactor: -1,
+        polygonOffsetUnits: -1,
+      }),
+    [configuredLogoTexture]
+  );
 
   const pieces = useMemo<Piece[]>(() => {
     return basePositions.map((base) => {
@@ -173,6 +202,26 @@ const Crate = ({ position, scale = 1 }: CrateProps) => {
       };
     });
   }, []);
+
+  const logoFaces = useMemo(() => {
+    const faces: Array<{
+      position: [number, number, number];
+      rotation: [number, number, number];
+    }> = [
+      { position: [0, 0, logoOffset], rotation: [0, 0, 0] },
+      { position: [0, 0, -logoOffset], rotation: [0, Math.PI, 0] },
+      { position: [logoOffset, 0, 0], rotation: [0, Math.PI / 2, 0] },
+      { position: [-logoOffset, 0, 0], rotation: [0, -Math.PI / 2, 0] },
+      { position: [0, logoOffset, 0], rotation: [-Math.PI / 2, 0, 0] },
+      { position: [0, -logoOffset, 0], rotation: [Math.PI / 2, 0, 0] },
+    ];
+
+    return pieces.map((piece, index) => {
+      const seed = piece.base.x * 17 + piece.base.y * 31 + piece.base.z * 47 + index * 13;
+      const faceIndex = Math.floor(pseudoRandom(seed) * faces.length);
+      return faces[faceIndex];
+    });
+  }, [logoOffset, pieces]);
 
   useFrame((_, delta) => {
     if (reduceMotion) return;
@@ -243,8 +292,15 @@ const Crate = ({ position, scale = 1 }: CrateProps) => {
           castShadow
           receiveShadow
         >
-          <boxGeometry args={[0.6, 0.6, 0.6]} />
+          <boxGeometry args={[pieceSize, pieceSize, pieceSize]} />
           <primitive object={woodMaterials[index]} attach="material" />
+          <mesh
+            position={logoFaces[index].position}
+            rotation={logoFaces[index].rotation}
+            material={logoMaterial}
+          >
+            <planeGeometry args={[logoSize, logoSize]} />
+          </mesh>
         </mesh>
       ))}
       <Particles exploded={hovered} />
