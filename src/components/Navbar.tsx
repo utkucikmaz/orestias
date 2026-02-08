@@ -107,7 +107,7 @@ const Navbar = () => {
                     <img
                         src={title}
                         alt={`${t("nav.brand")} logo`}
-                        className="h-8 w-full object-cover shadow-soft"
+                        className="h-8 w-full object-cover shadow-soft transition dark:brightness-0 dark:invert"
                         loading="eager"
                     />
                 </a>
